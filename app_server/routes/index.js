@@ -5,4 +5,5 @@ var crtlMain = require('../controllers/main');  //Mudanças para funcionar o con
 
 router.get('/',crtlMain.index);
 router.get('/david',crtlMain.david);
+
 module.exports = router;
